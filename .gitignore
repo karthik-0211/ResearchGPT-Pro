@@ -1,0 +1,18 @@
+# Backend files
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/uploads/
+backend/chroma_db/
+backend/reports_store/
+backend/*.log
+
+# Frontend files
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
