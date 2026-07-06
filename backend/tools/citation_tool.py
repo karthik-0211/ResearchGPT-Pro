@@ -1,11 +1,11 @@
-from rag.vectordb import vectordb
+from rag.vectordb import get_vectordb
 
 
 def retrieve_docs(query):
 
     try:
 
-        docs = vectordb.similarity_search(
+        docs = get_vectordb().similarity_search(
 
             query,
 

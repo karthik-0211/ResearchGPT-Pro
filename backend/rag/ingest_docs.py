@@ -6,7 +6,7 @@ from langchain_text_splitters import (
 
 )
 
-from rag.vectordb import vectordb
+from rag.vectordb import get_vectordb
 
 
 documents = [
@@ -63,7 +63,7 @@ for doc in documents:
         )
 
 
-vectordb.add_documents(
+get_vectordb().add_documents(
 
     all_docs
 
